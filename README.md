@@ -62,6 +62,10 @@ Feel free to contribute either with a PR or by opening an issue.
 
     >TL;DR: This paper identifies $\theta(1/k)$ gradient magnitude decay as a primary theoretical driver of plasticity loss in non-stationary RL. To address this, the authors propose Sample Weight Decay (SWD), a lightweight experience replay strategy that prioritizes recent data to restore gradient signals, effectively mitigating plasticity loss and improving learning stability across various RL benchmarks.
 
+- Han I, Park S, Oh S, et al. **FIRE: Frobenius-Isometry Reinitialization for Balancing the Stability-Plasticity Tradeoff** (Oral)[J]. arXiv preprint arXiv:2602.08040, 2026.[[Paper]](https://openreview.net/forum?id=CfZLxT3zIZ)[[Code]](https://isaac7778.github.io/fire/) 
+
+    >TL;DR: FIRE optimizes the stability–plasticity tradeoff by framing reinitialization as a constrained geometric projection. It minimizes the Squared Frobenius Error (to preserve past knowledge) while enforcing Dynamical Isometry (to restore learning capacity). This principled reinitialization, efficiently implemented via Newton–Schulz iteration, consistently outperforms standard reset methods across computer vision, language modeling, and reinforcement learning. 
+
 ### 2025
 #### RLC 2025
 - Elelimy E, Szepesvari D, White M, et al. **Rethinking the foundations for continual reinforcement learning**[J]. arXiv preprint arXiv:2504.08161, 2025.[[Paper]](https://arxiv.org/abs/2504.08161)
